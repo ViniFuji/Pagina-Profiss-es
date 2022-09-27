@@ -1,0 +1,105 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top:0px;
+    position: absolute;
+   
+
+
+    
+}   
+#Container{
+    background-color: blue;
+
+}
+.img{
+    background-position: center;
+    object-fit:cover;
+    position: relative;
+}
+.col-sm-4{
+    color:rgb(0, 0, 0);
+    
+}
+#navbar{
+    background-color:rgb(255, 0, 0) ;
+}
+.rounded-circle{
+    position: relative;
+    left: 350px;
+    width: 400px;
+    height: 400px;
+    margin-top: 5%;
+   
+}
+#circulo1{
+    position: relative;
+    left: 0%;
+    width: 400px;
+    height: 400px;
+
+}
+#circulo2{
+    position: relative;
+    left: 5%;
+    width: 400px;
+    height: 400px;
+
+}
+#circulo3{
+    position: relative;
+    left: 10%;
+    width: 400px;
+    height: 400px;
+
+}
+
+#coluna1{
+    background-color:#000814;
+    border-radius: 5%;
+    color:white;
+
+}
+#coluna2{
+    background-color:#001d3d;
+    color:white;
+    
+}
+#coluna3{
+    background-color: #003566;
+    color:white;
+    
+}
+#coluna4{
+    background-color: #ffc300;
+    
+}
+#coluna5{
+    background-color: #ffd60a;
+    
+}
+#coluna6{
+    background-color:#ca6702;
+}
+#coluna7{
+    background-color: #bb3e03;
+}
+
+.dinheiro{
+    height: 500px;
+    width:1000px;
+    margin-top:5%;
+    left:25%;
+    position: relative;
+}
+.salario{
+    font-size: larger;
+    text-align: center;
+    background-color: #000814;
+    position: relative;
+    width: 1000px;
+  
+    color: aliceblue;
+    margin: 5%;
+}
