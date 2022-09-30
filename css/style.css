@@ -57,49 +57,73 @@
 
 #coluna1{
     background-color:#000814;
-    border-radius: 5%;
+    border-radius: 15px;
     color:white;
 
 }
 #coluna2{
     background-color:#001d3d;
     color:white;
+    border-radius: 15px;
     
 }
 #coluna3{
     background-color: #003566;
     color:white;
+    border-radius: 15px;
     
 }
 #coluna4{
     background-color: #ffc300;
-    
+    border-radius: 15px;
 }
 #coluna5{
     background-color: #ffd60a;
-    
+    border-radius: 15px;
 }
 #coluna6{
     background-color:#ca6702;
+    border-radius: 15px;
 }
 #coluna7{
     background-color: #bb3e03;
+    border-radius: 15px;
 }
 
 .dinheiro{
     height: 500px;
     width:1000px;
-    margin-top:5%;
+    margin-top: -1%;
     left:25%;
     position: relative;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .salario{
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
     background-color: #000814;
     position: relative;
     width: 1000px;
-  
+    left: 15%;
+    border-radius: 15px;
     color: aliceblue;
     margin: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 25%;
 }
+
+#container2{
+    position: relative;
+    border-radius: 15px;
+    background-color: #000814;
+    color: aliceblue;
+}
+#container3{
+    position: relative;
+    border-radius: 15px;
+    width: 1000px;
+    color: rgb(0, 0, 0);
+    left: 25%;
+}
+
