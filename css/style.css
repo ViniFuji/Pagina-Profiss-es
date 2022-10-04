@@ -4,11 +4,20 @@
     left: 0px;
     top:0px;
     position: absolute;
+    
+  
    
-
 
     
 }   
+
+.background{
+    background-image: url(../css/fundo1.jpg) ;
+    
+    
+   
+
+}
 #Container{
     background-color: blue;
 
@@ -63,6 +72,8 @@
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
 
 }
 #coluna2{
@@ -71,6 +82,7 @@
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
     
 }
 #coluna3{
@@ -79,6 +91,7 @@
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
     
 }
 #coluna4{
@@ -86,24 +99,28 @@
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
 }
 #coluna5{
     background-color: #ffd60a;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
 }
 #coluna6{
     background-color:#ca6702;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
 }
 #coluna7{
     background-color: #bb3e03;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);   
 }
 
 .dinheiro{
@@ -179,7 +196,7 @@
     left: 17%;
     border-radius: 15px;
     color: aliceblue;
-    margin-top: 5%;
+    margin-top: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
@@ -285,6 +302,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: #000000 5px solid;
     left: 0%;
+}
+
+.fundo{
+    position: absolute;
+    z-index: inherit;
 }
 
 
