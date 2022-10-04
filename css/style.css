@@ -27,10 +27,12 @@
 }
 .rounded-circle{
     position: relative;
-    left: 350px;
+    left: 300px;
     width: 400px;
     height: 400px;
     margin-top: 5%;
+    border: #001f4e 5px solid;
+    margin: 10px;
    
 }
 #circulo1{
@@ -59,42 +61,56 @@
     background-color:#000814;
     border-radius: 15px;
     color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
 
 }
 #coluna2{
     background-color:#001d3d;
     color:white;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
     
 }
 #coluna3{
     background-color: #003566;
     color:white;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
     
 }
 #coluna4{
     background-color: #ffc300;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
 }
 #coluna5{
     background-color: #ffd60a;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
 }
 #coluna6{
     background-color:#ca6702;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
 }
 #coluna7{
     background-color: #bb3e03;
     border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
 }
 
 .dinheiro{
-    height: 500px;
-    width:1000px;
-    margin-top: -1%;
-    left:25%;
+    height: 350px;
+    width: 750px;
+    top: 2%;
+    left:75%;
     position: relative;
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -104,11 +120,11 @@
     text-align: center;
     background-color: #000814;
     position: relative;
-    width: 1000px;
-    left: 13%;
+    width: 208px;
+    left: 2%;
     border-radius: 15px;
     color: aliceblue;
-    margin: 5%;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
@@ -125,12 +141,14 @@
     width: 1000px;
     color: rgb(0, 0, 0);
     left: 25%;
+    margin-top: 3%;
 }
 .rodape{
     background-color: #001d3d;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 500px;
+    margin-top: 10%;
 
 }
 #container4{
@@ -158,11 +176,116 @@
     background-color: #000814;
     position: relative;
     width: 1000px;
-    left: 13%;
+    left: 17%;
     border-radius: 15px;
     color: aliceblue;
-    margin: 5%;
+    margin-top: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
+
+#facul{
+    background-color: #000814;
+    color: azure;
+    position: relative;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    margin-top: 2% ;
+    width: 250px;
+    height: 125px;
+    left: 16%;
+
+}
+
+
+.faculImg{ position: relative;
+    left: 3%;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    
+
+}
+
+
+.faculImg1{ position: relative;
+    left: 8%;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+
+}
+
+
+.faculImg2{ position: relative;
+    left: 13%;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+
+}
+
+#facul1{
+    background-color: #000814;
+    color: azure;
+    position: relative;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    top: 1%;
+    width: 250px;
+    height: 125px;
+    left: 32%;
+
+}
+#facul2{
+    background-color: #000814;
+    color: azure;
+    position: relative;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    top: 2%;
+    width: 250px;
+    height: 125px;
+    left: 64%;
+
+
+}
+
+.salario1{
+    font-size: xx-large;
+    text-align: center;
+    background-color: #000814;
+    position: relative;
+    width: 1000px;
+    left: 20%;
+    border-radius: 15px;
+    color: aliceblue;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+#containerS{
+    position: relative;
+    border-radius: 15px;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    left: -25%;
+    top:5%
+
+    
+   
+}
+
+#colunaS{
+    background-color: #ffd60a;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #000000 5px solid;
+    left: 0%;
+}
+
+
 
