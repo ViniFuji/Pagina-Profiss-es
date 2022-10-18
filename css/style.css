@@ -198,6 +198,10 @@
     color: aliceblue;
     margin-top: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
    
 }
 
@@ -327,3 +331,33 @@
   color: white;
   padding: 2rem;
 }
+
+
+.titulos::before{
+    content : '';
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,#00ccff);
+    animation: animate 4s linear infinite;
+}
+.titulos::after{
+    content : '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,#d400d4);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+
+    @keyframes animate{
+        0%{
+           transform: rotate(0deg); 
+        }
+        100%{
+            transform:rotate(360deg);
+        }
+    }
+
+
