@@ -311,3 +311,19 @@
 
 
 
+.tabela{
+    position: relative;
+    width: 60%;
+    left: 20%;
+    padding: 1rem;
+   
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(9, 0, 128));
+    padding: 3px;
+}
+
+#tabela{
+    border-radius: 5px;
+    background: #222;
+  color: white;
+  padding: 2rem;
+}
